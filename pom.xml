@@ -1,0 +1,293 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>de.ofterdinger</groupId>
+  <artifactId>parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Parent</name>
+  <description>The parent artifact providing a basic build configuration.</description>
+  <url>https://github.com/ofterdinger/maven-parent</url>
+
+  <scm>
+    <connection>scm:git:git@github.com:ofterdinger/maven-parent.git</connection>
+    <developerConnection>scm:git:git@github.com:ofterdinger/maven-parent.git</developerConnection>
+    <url>https://github.com/ofterdinger/maven-parent</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://raw.githubusercontent.com/ofterdinger/maven-parent/main/LICENSE</url>
+      <distribution>Public Maven repository</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Markus Ofterdinger</name>
+      <email>markus@ofterdinger.de</email>
+      <organization>Markus Ofterdinger</organization>
+      <organizationUrl>https://github.com/ofterdinger</organizationUrl>
+    </developer>
+  </developers>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>11</maven.compiler.release>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>default-deploy</id>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-enforcer-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>enforce-maven</id>
+            <goals>
+              <goal>enforce</goal>
+            </goals>
+            <configuration>
+              <rules>
+                <requireMavenVersion>
+                  <version>3.6.3</version>
+                </requireMavenVersion>
+              </rules>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <useReleaseProfile>false</useReleaseProfile>
+          <releaseProfiles>release</releaseProfiles>
+          <goals>deploy</goals>
+        </configuration>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
+      <plugins>
+        <!-- https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin -->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>flatten-maven-plugin</artifactId>
+          <version>1.2.5</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
+        <plugin>
+          <artifactId>maven-antrun-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.3.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+        <plugin>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.8.1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
+        <plugin>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>3.1.2</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
+        <plugin>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>3.0.0-M3</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+        <plugin>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>3.0.0-M5</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
+        <plugin>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-install-plugin -->
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin -->
+        <plugin>
+          <artifactId>maven-invoker-plugin</artifactId>
+          <version>3.2.1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jar-plugin -->
+        <plugin>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
+        <plugin>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin -->
+        <plugin>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin -->
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
+        <plugin>
+          <artifactId>maven-scm-plugin</artifactId>
+          <version>1.11.2</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
+        <plugin>
+          <artifactId>maven-scm-publish-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin -->
+        <plugin>
+          <artifactId>maven-shade-plugin</artifactId>
+          <version>3.2.4</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.9.1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>3.0.0-M5</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
+        <plugin>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.2.1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>release</id>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+
+          <plugin>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <configuration>
+              <javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
+              <release>${maven.compiler.release}</release>
+            </configuration>
+            <executions>
+              <execution>
+                <id>attach-javadocs</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+
+          <plugin>
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>
