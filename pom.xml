@@ -3,7 +3,7 @@
 
   <groupId>de.ofterdinger</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Parent</name>
@@ -14,7 +14,7 @@
     <connection>scm:git:git@github.com:ofterdinger/maven-parent.git</connection>
     <developerConnection>scm:git:git@github.com:ofterdinger/maven-parent.git</developerConnection>
     <url>https://github.com/ofterdinger/maven-parent</url>
-    <tag>parent-0.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <licenses>
