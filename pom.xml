@@ -4,7 +4,7 @@
 
   <groupId>de.ofterdinger</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Parent</name>
@@ -91,6 +91,7 @@
           <useReleaseProfile>false</useReleaseProfile>
           <releaseProfiles>release</releaseProfiles>
           <goals>deploy</goals>
+          <pushChanges>false</pushChanges>
         </configuration>
       </plugin>
     </plugins>
