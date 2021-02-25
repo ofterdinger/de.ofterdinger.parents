@@ -9,12 +9,12 @@
 
   <name>Parent</name>
   <description>A reusable Maven parent aritfact that provides versions and default configurations of commonly used build plugins.</description>
-  <url>https://github.com/ofterdinger/maven-parent</url>
+  <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
   <scm>
-    <connection>scm:git:git@github.com:ofterdinger/maven-parent.git</connection>
-    <developerConnection>scm:git:git@github.com:ofterdinger/maven-parent.git</developerConnection>
-    <url>https://github.com/ofterdinger/maven-parent</url>
+    <connection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</connection>
+    <developerConnection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</developerConnection>
+    <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -118,6 +118,20 @@
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>flatten-maven-plugin</artifactId>
           <version>1.2.5</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
+        <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.8.6</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>jaxb2-maven-plugin</artifactId>
+          <version>2.5.0</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
