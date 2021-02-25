@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
 
   <name>Parent</name>
-  <description>The parent artifact providing a basic build configuration.</description>
+  <description>A reusable Maven parent aritfact that provides versions and default configurations of commonly used build plugins.</description>
   <url>https://github.com/ofterdinger/maven-parent</url>
 
   <scm>
