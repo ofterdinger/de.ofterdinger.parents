@@ -90,7 +90,7 @@
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <releaseProfiles>release</releaseProfiles>
           <goals>deploy</goals>
-          <pushChanges>false</pushChanges>
+          <pushChanges>true</pushChanges>
         </configuration>
       </plugin>
     </plugins>
