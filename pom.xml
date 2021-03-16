@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -99,6 +99,13 @@
     <pluginManagement>
       <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
       <plugins>
+        <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
+        <plugin>
+          <groupId>com.sap.cds</groupId>
+          <artifactId>cds-maven-plugin</artifactId>
+          <version>1.14.1</version>
+        </plugin>
+
         <!-- https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -117,7 +124,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>flatten-maven-plugin</artifactId>
-          <version>1.2.5</version>
+          <version>1.2.7</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
