@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -49,6 +49,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>11</maven.compiler.release>
+    <tycho.version>2.2.0</tycho.version>
   </properties>
 
   <build>
@@ -127,11 +128,86 @@
           <version>1.2.7</version>
         </plugin>
 
+        <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>jaxb2-maven-plugin</artifactId>
+          <version>2.5.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-compiler-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-compiler-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho.extras/tycho-document-bundle-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho.extras</groupId>
+          <artifactId>tycho-document-bundle-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
         <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-maven-plugin -->
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
           <artifactId>tycho-maven-plugin</artifactId>
-          <version>2.2.0</version>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/target-platform-configuration -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>target-platform-configuration</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-repository-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-repository-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-publisher-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-publisher-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-packaging-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-packaging-plugin</artifactId>
+          <version>${tycho.version}</version>
+          <dependencies>
+            <dependency>
+              <groupId>org.eclipse.tycho.extras</groupId>
+              <artifactId>tycho-buildtimestamp-jgit</artifactId>
+              <version>${tycho.version}</version>
+            </dependency>
+          </dependencies>
+          <configuration>
+            <timestampProvider>jgit</timestampProvider>
+            <jgit.ignore>pom.xml</jgit.ignore>
+            <jgit.dirtyWorkingTree>${jgit.dirtyWorkingTree}</jgit.dirtyWorkingTree>
+          </configuration>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-surefire-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-surefire-plugin</artifactId>
+          <version>${tycho.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
@@ -139,13 +215,6 @@
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
           <version>0.8.6</version>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>jaxb2-maven-plugin</artifactId>
-          <version>2.5.0</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
@@ -160,6 +229,13 @@
           <groupId>org.openjfx</groupId>
           <artifactId>javafx-maven-plugin</artifactId>
           <version>0.0.5</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+        <plugin>
+          <groupId>org.sonarsource.scanner.maven</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.8.0.2131</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
