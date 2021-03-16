@@ -127,6 +127,13 @@
           <version>1.2.7</version>
         </plugin>
 
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-maven-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-maven-plugin</artifactId>
+          <version>2.2.0</version>
+        </plugin>
+
         <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
         <plugin>
           <groupId>org.jacoco</groupId>
@@ -231,6 +238,12 @@
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.2.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jlink-plugin -->
+        <plugin>
+          <artifactId>maven-jlink-plugin</artifactId>
+          <version>3.1.0</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
