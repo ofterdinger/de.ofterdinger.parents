@@ -50,6 +50,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>11</maven.compiler.release>
     <tycho.version>2.2.0</tycho.version>
+    <tycho.jgit.dirtyWorkingTree>warning</tycho.jgit.dirtyWorkingTree>
   </properties>
 
   <build>
@@ -198,8 +199,11 @@
           </dependencies>
           <configuration>
             <timestampProvider>jgit</timestampProvider>
-            <jgit.ignore>pom.xml</jgit.ignore>
-            <jgit.dirtyWorkingTree>${jgit.dirtyWorkingTree}</jgit.dirtyWorkingTree>
+            <jgit.ignore>
+              pom.xml
+              .polyglot.build.properties
+            </jgit.ignore>
+            <jgit.dirtyWorkingTree>${tycho.jgit.dirtyWorkingTree}</jgit.dirtyWorkingTree>
           </configuration>
         </plugin>
 
