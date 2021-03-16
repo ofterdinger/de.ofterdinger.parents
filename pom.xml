@@ -168,6 +168,18 @@
           <version>3.0.0</version>
         </plugin>
 
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
+        <plugin>
+          <artifactId>maven-artifact-plugin</artifactId>
+          <version>3.0.0</version>
+        </plugin>
+
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
         <plugin>
           <artifactId>maven-assembly-plugin</artifactId>
@@ -256,6 +268,12 @@
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
           <version>3.0.0-M1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-remote-resources-plugin -->
+        <plugin>
+          <artifactId>maven-remote-resources-plugin</artifactId>
+          <version>1.7.0</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin -->
