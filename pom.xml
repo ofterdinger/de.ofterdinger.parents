@@ -107,7 +107,7 @@
         <plugin>
           <groupId>com.sap.cds</groupId>
           <artifactId>cds-maven-plugin</artifactId>
-          <version>1.14.1</version>
+          <version>1.14.2</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
@@ -164,6 +164,13 @@
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
           <version>3.8.0.2131</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/pl.project13.maven/git-commit-id-plugin -->
+        <plugin>
+          <groupId>pl.project13.maven</groupId>
+          <artifactId>git-commit-id-plugin</artifactId>
+          <version>4.0.4</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
