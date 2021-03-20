@@ -20,10 +20,6 @@
     <tycho.jgit.dirtyWorkingTree>warning</tycho.jgit.dirtyWorkingTree>
   </properties>
 
-  <modules>
-    <module>tycho-parent</module>
-  </modules>
-
   <build>
     <pluginManagement>
       <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
