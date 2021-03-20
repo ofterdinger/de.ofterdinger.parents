@@ -52,14 +52,35 @@
   </modules>
 
   <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>3.0.0-M1</version>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
-      </plugin>
-    </plugins>
+    <pluginManagement>
+      <plugins>
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+        <plugin>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.0.0-M1</version>
+          <configuration>
+            <skip>true</skip>
+          </configuration>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-install-plugin -->
+        <plugin>
+          <artifactId>maven-install-plugin</artifactId>
+          <version>3.0.0-M1</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
+        <plugin>
+          <artifactId>maven-site-plugin</artifactId>
+          <version>3.9.1</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
   </build>
 </project>
