@@ -13,43 +13,7 @@
   <packaging>pom</packaging>
 
   <name>de.ofterdinger.tycho-parent</name>
-  <description>A reusable Maven parent aritfact that provides versions and default configurations of commonly used build plugins.</description>
-  <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
-
-  <scm>
-    <connection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</connection>
-    <developerConnection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</developerConnection>
-    <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
-    <tag>HEAD</tag>
-  </scm>
-
-  <licenses>
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
-      <distribution>Public Maven repository</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <name>Markus Ofterdinger</name>
-      <email>markus@ofterdinger.de</email>
-      <organization>Markus Ofterdinger</organization>
-      <organizationUrl>https://github.com/ofterdinger</organizationUrl>
-    </developer>
-  </developers>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
+  <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
 
   <properties>
     <tycho.version>2.2.0</tycho.version>
