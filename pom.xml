@@ -91,8 +91,9 @@
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
-          <autoVersionSubmodules>true</autoVersionSubmodules>
+          <arguments>-Prelease</arguments>
           <releaseProfiles>release</releaseProfiles>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
           <goals>deploy</goals>
           <pushChanges>true</pushChanges>
           <tagNameFormat>v@{project.version}</tagNameFormat>
