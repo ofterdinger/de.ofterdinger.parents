@@ -127,6 +127,13 @@
           <version>1.14.3</version>
         </plugin>
 
+        <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
+        <plugin>
+          <groupId>org.apache.felix</groupId>
+          <artifactId>maven-bundle-plugin</artifactId>
+          <version>5.1.2</version>
+        </plugin>
+
         <!-- https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
