@@ -3,7 +3,7 @@
 
   <groupId>de.ofterdinger</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.8-SNAPSHOT</version>
+  <version>0.0.9-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>de.ofterdinger.parent</name>
@@ -107,12 +107,12 @@
         <plugin>
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
-          <version>2.9.0</version>
+          <version>2.10.3</version>
           <configuration>
             <java>
               <removeUnusedImports />
               <googleJavaFormat>
-                <version>1.9</version>
+                <version>1.10.0</version>
                 <style>GOOGLE</style>
               </googleJavaFormat>
             </java>
@@ -123,7 +123,7 @@
         <plugin>
           <groupId>com.sap.cds</groupId>
           <artifactId>cds-maven-plugin</artifactId>
-          <version>1.14.3</version>
+          <version>1.15.2</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
@@ -179,7 +179,7 @@
         <plugin>
           <groupId>org.openjfx</groupId>
           <artifactId>javafx-maven-plugin</artifactId>
-          <version>0.0.5</version>
+          <version>0.0.6</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
@@ -266,6 +266,12 @@
         <plugin>
           <artifactId>maven-gpg-plugin</artifactId>
           <version>1.6</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-help-plugin -->
+        <plugin>
+          <artifactId>maven-help-plugin</artifactId>
+          <version>3.2.0</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-install-plugin -->
