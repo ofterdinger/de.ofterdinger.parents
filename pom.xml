@@ -55,6 +55,9 @@
     <googleJavaFormat.version>1.10.0</googleJavaFormat.version>
     <javafx.version>0.0.6</javafx.version>
     <mavenPlugin.version>3.6.1</mavenPlugin.version>
+    <jacoco.version>0.8.6</jacoco.version>
+    <sonar.version>3.8.0.2131</sonar.version>
+    <archetype.version>3.2.0</archetype.version>
   </properties>
 
   <modules>
@@ -172,7 +175,7 @@
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
-          <version>0.8.6</version>
+          <version>${jacoco.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
@@ -193,7 +196,7 @@
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
-          <version>3.8.0.2131</version>
+          <version>${sonar.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/pl.project13.maven/git-commit-id-plugin -->
@@ -212,7 +215,7 @@
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${archetype.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
