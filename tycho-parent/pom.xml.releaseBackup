@@ -1,0 +1,148 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>de.ofterdinger</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.0.11-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+
+  <artifactId>tycho-parent</artifactId>
+  <packaging>pom</packaging>
+
+  <name>de.ofterdinger.tycho-parent</name>
+  <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
+
+  <properties>
+    <tycho.version>2.3.0</tycho.version>
+    <tycho.jgit.dirtyWorkingTree>warning</tycho.jgit.dirtyWorkingTree>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+
+    <pluginManagement>
+      <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
+      <plugins>
+        <plugin>
+          <groupId>com.diffplug.spotless</groupId>
+          <artifactId>spotless-maven-plugin</artifactId>
+          <version>${spotless-maven-plugin.version}</version>
+          <configuration>
+            <java>
+              <includes>
+                <include>src/**/*.java</include>
+              </includes>
+            </java>
+          </configuration>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-compiler-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-compiler-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho.extras/tycho-document-bundle-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho.extras</groupId>
+          <artifactId>tycho-document-bundle-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-maven-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-maven-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/target-platform-configuration -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>target-platform-configuration</artifactId>
+          <version>${tycho.version}</version>
+          <configuration>
+            <pomDependencies>consider</pomDependencies>
+            <executionEnvironment>JavaSE-${maven.compiler.release}</executionEnvironment>
+            <environments>
+              <environment>
+                <os>linux</os>
+                <ws>gtk</ws>
+                <arch>x86_64</arch>
+              </environment>
+              <environment>
+                <os>win32</os>
+                <ws>win32</ws>
+                <arch>x86_64</arch>
+              </environment>
+              <environment>
+                <os>macosx</os>
+                <ws>cocoa</ws>
+                <arch>x86_64</arch>
+              </environment>
+            </environments>
+          </configuration>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-repository-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-repository-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-publisher-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-p2-publisher-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-packaging-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-packaging-plugin</artifactId>
+          <version>${tycho.version}</version>
+          <dependencies>
+            <dependency>
+              <groupId>org.eclipse.tycho.extras</groupId>
+              <artifactId>tycho-buildtimestamp-jgit</artifactId>
+              <version>${tycho.version}</version>
+            </dependency>
+          </dependencies>
+          <configuration>
+            <timestampProvider>jgit</timestampProvider>
+            <jgit.ignore>
+              pom.xml
+              .polyglot.build.properties
+            </jgit.ignore>
+            <jgit.dirtyWorkingTree>${tycho.jgit.dirtyWorkingTree}</jgit.dirtyWorkingTree>
+          </configuration>
+        </plugin>
+
+        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-surefire-plugin -->
+        <plugin>
+          <groupId>org.eclipse.tycho</groupId>
+          <artifactId>tycho-surefire-plugin</artifactId>
+          <version>${tycho.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
