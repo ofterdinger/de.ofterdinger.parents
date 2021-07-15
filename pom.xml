@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -49,13 +51,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>11</maven.compiler.release>
 
-    <cds-maven-plugin.version>1.16.3</cds-maven-plugin.version>
-    <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
-    <spotless-maven-plugin.version>2.12.1</spotless-maven-plugin.version>
-    <git-commit-id-plugin.version>4.0.5</git-commit-id-plugin.version>
+    <cds-maven-plugin.version>1.17.0</cds-maven-plugin.version>
+    <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
     <googleJavaFormat.version>1.10.0</googleJavaFormat.version>
+    <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
     <javafx-maven-plugin.version>0.0.6</javafx-maven-plugin.version>
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
+    <spotless-maven-plugin.version>2.12.1</spotless-maven-plugin.version>
 
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
     <maven-artifact-plugin.version>3.1.0</maven-artifact-plugin.version>
@@ -204,11 +206,11 @@
           <version>${sonar-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/pl.project13.maven/git-commit-id-plugin -->
+        <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
         <plugin>
-          <groupId>pl.project13.maven</groupId>
-          <artifactId>git-commit-id-plugin</artifactId>
-          <version>${git-commit-id-plugin.version}</version>
+          <groupId>io.github.git-commit-id</groupId>
+          <artifactId>git-commit-id-maven-plugin</artifactId>
+          <version>${git-commit-id-maven-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
