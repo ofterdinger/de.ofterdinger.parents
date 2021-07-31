@@ -51,20 +51,45 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>11</maven.compiler.release>
 
-    <cds-maven-plugin.version>1.17.1</cds-maven-plugin.version>
+    <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
+    <cds-maven-plugin.version>1.17.0</cds-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
-    <googleJavaFormat.version>1.10.0</googleJavaFormat.version>
+
+    <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
+    <google-java-format.version>1.11.0</google-java-format.version>
+
+    <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
     <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
     <javafx-maven-plugin.version>0.0.6</javafx-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
     <spotless-maven-plugin.version>2.12.2</spotless-maven-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
     <maven-artifact-plugin.version>3.1.0</maven-artifact-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
+
     <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
     <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
     <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
     <maven-plugin-plugin.version>3.6.1</maven-plugin-plugin.version>
   </properties>
 
@@ -121,7 +146,6 @@
     <pluginManagement>
       <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
       <plugins>
-        <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
         <plugin>
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
@@ -130,14 +154,13 @@
             <java>
               <removeUnusedImports />
               <googleJavaFormat>
-                <version>${googleJavaFormat.version}</version>
+                <version>${google-java-format.version}</version>
                 <style>GOOGLE</style>
               </googleJavaFormat>
             </java>
           </configuration>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
         <plugin>
           <groupId>com.sap.cds</groupId>
           <artifactId>cds-maven-plugin</artifactId>
@@ -179,7 +202,6 @@
           <version>2.5.0</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
         <plugin>
           <groupId>org.jacoco</groupId>
           <artifactId>jacoco-maven-plugin</artifactId>
@@ -193,21 +215,18 @@
           <version>1.0.0.RC1</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
         <plugin>
           <groupId>org.openjfx</groupId>
           <artifactId>javafx-maven-plugin</artifactId>
           <version>${javafx-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
         <plugin>
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
           <version>${sonar-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
         <plugin>
           <groupId>io.github.git-commit-id</groupId>
           <artifactId>git-commit-id-maven-plugin</artifactId>
@@ -220,13 +239,11 @@
           <version>3.0.0</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
           <version>${maven-archetype-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
         <plugin>
           <artifactId>maven-artifact-plugin</artifactId>
           <version>${maven-artifact-plugin.version}</version>
@@ -256,7 +273,6 @@
           <version>3.8.1</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
         <plugin>
           <artifactId>maven-dependency-plugin</artifactId>
           <version>${maven-dependency-plugin.version}</version>
@@ -280,7 +296,6 @@
           <version>3.0.0-M5</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
         <plugin>
           <artifactId>maven-gpg-plugin</artifactId>
           <version>${maven-gpg-plugin.version}</version>
@@ -310,7 +325,6 @@
           <version>3.2.0</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>${maven-javadoc-plugin.version}</version>
@@ -322,7 +336,6 @@
           <version>3.1.0</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
         <plugin>
           <artifactId>maven-plugin-plugin</artifactId>
           <version>${maven-plugin-plugin.version}</version>
