@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -79,6 +81,7 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
     <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
@@ -87,8 +90,20 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
     <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
+    <maven-jxr-plugin.version>3.1.1</maven-jxr-plugin.version>
+
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
     <maven-plugin-plugin.version>3.6.1</maven-plugin-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin -->
+    <maven-pmd-plugin.version>3.14.0</maven-pmd-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
+    <maven-project-info-reports-plugin.version>3.1.2</maven-project-info-reports-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
+    <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
   </properties>
 
   <modules>
@@ -282,7 +297,6 @@
           <version>3.0.0-M1</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
         <plugin>
           <artifactId>maven-enforcer-plugin</artifactId>
           <version>${maven-enforcer-plugin.version}</version>
@@ -335,8 +349,23 @@
         </plugin>
 
         <plugin>
+          <artifactId>maven-jxr-plugin</artifactId>
+          <version>${maven-jxr-plugin.version}</version>
+        </plugin>
+
+        <plugin>
           <artifactId>maven-plugin-plugin</artifactId>
           <version>${maven-plugin-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-pmd-plugin</artifactId>
+          <version>${maven-pmd-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-project-info-reports-plugin</artifactId>
+          <version>${maven-project-info-reports-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin -->
@@ -385,6 +414,11 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.0.0-M5</version>
+        </plugin>
+
+        <plugin>
+          <artifactId>maven-surefire-report-plugin</artifactId>
+          <version>${maven-surefire-report-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
