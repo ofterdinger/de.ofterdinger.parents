@@ -3,7 +3,7 @@
 
   <groupId>de.ofterdinger</groupId>
   <artifactId>parent</artifactId>
-  <version>0.0.13</version>
+  <version>0.0.14-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>de.ofterdinger.parent</name>
