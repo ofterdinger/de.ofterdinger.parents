@@ -113,18 +113,6 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>default-deploy</id>
-            <goals>
-              <goal>deploy</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
         <artifactId>maven-enforcer-plugin</artifactId>
         <executions>
           <execution>
@@ -149,7 +137,6 @@
           <arguments>-Prelease</arguments>
           <releaseProfiles>release</releaseProfiles>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <goals>deploy</goals>
           <pushChanges>true</pushChanges>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
@@ -441,6 +428,18 @@
       <id>release</id>
       <build>
         <plugins>
+          <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>default-deploy</id>
+                <goals>
+                  <goal>deploy</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+
           <plugin>
             <artifactId>maven-gpg-plugin</artifactId>
             <executions>
