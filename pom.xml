@@ -102,6 +102,9 @@
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
     <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
+    <maven-scm-plugin.version>1.11.3</maven-scm-plugin.version>
   </properties>
 
   <modules>
@@ -371,10 +374,9 @@
           <version>3.2.0</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
         <plugin>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>1.11.2</version>
+          <version>${maven-scm-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
