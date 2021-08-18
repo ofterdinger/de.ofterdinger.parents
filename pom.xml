@@ -483,18 +483,6 @@
       <build>
         <plugins>
           <plugin>
-            <artifactId>maven-deploy-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>default-deploy</id>
-                <goals>
-                  <goal>deploy</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-
-          <plugin>
             <artifactId>maven-gpg-plugin</artifactId>
             <executions>
               <execution>
