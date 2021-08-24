@@ -76,7 +76,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.18.0</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.18.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
@@ -94,7 +94,7 @@
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.12.2</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.12.3</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
