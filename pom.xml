@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -76,7 +78,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.18.1</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.18.3</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
@@ -94,7 +96,7 @@
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.12.3</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.13.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
@@ -112,7 +114,7 @@
     <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
-    <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
     <maven-jxr-plugin.version>3.1.1</maven-jxr-plugin.version>
@@ -121,7 +123,7 @@
     <maven-plugin-plugin.version>3.6.1</maven-plugin-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin -->
-    <maven-pmd-plugin.version>3.14.0</maven-pmd-plugin.version>
+    <maven-pmd-plugin.version>3.15.0</maven-pmd-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
     <maven-project-info-reports-plugin.version>3.1.2</maven-project-info-reports-plugin.version>
@@ -131,6 +133,9 @@
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
     <maven-scm-plugin.version>1.11.3</maven-scm-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
+    <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
   </properties>
 
   <modules>
@@ -440,10 +445,9 @@
           <version>3.2.1</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>${maven-war-plugin.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
