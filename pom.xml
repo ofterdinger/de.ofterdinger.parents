@@ -86,6 +86,12 @@
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
     <build-helper-maven-plugin.version>3.2.0</build-helper-maven-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.codehaus.mojo/exec-maven-plugin -->
+    <exec-maven-plugin.version>3.0.0</exec-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin -->
+    <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
+
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
 
@@ -217,18 +223,16 @@
           <version>${build-helper-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.codehaus.mojo/exec-maven-plugin -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>exec-maven-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>${exec-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>flatten-maven-plugin</artifactId>
-          <version>1.2.7</version>
+          <version>${flatten-maven-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
