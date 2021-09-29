@@ -15,7 +15,7 @@
   <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
 
   <properties>
-    <tycho.version>2.4.0</tycho.version>
+    <tycho.version>2.5.0</tycho.version>
     <tycho.jgit.dirtyWorkingTree>warning</tycho.jgit.dirtyWorkingTree>
   </properties>
 
