@@ -78,7 +78,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.18.3</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.19.0</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
@@ -90,13 +90,13 @@
     <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
-    <javafx-maven-plugin.version>0.0.6</javafx-maven-plugin.version>
+    <javafx-maven-plugin.version>0.0.7</javafx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.13.0</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.14.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
@@ -132,7 +132,7 @@
     <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
-    <maven-scm-plugin.version>1.11.3</maven-scm-plugin.version>
+    <maven-scm-plugin.version>1.12.0</maven-scm-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
