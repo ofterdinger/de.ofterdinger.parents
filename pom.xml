@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger</groupId>
@@ -99,14 +101,17 @@
     <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
     <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
+    <moditect-maven-plugin.version>1.0.0.RC2</moditect-maven-plugin.version>
+
     <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
-    <javafx-maven-plugin.version>0.0.7</javafx-maven-plugin.version>
+    <javafx-maven-plugin.version>0.0.8</javafx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.14.0</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.17.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
@@ -246,11 +251,10 @@
           <version>${jacoco-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
         <plugin>
           <groupId>org.moditect</groupId>
           <artifactId>moditect-maven-plugin</artifactId>
-          <version>1.0.0.RC1</version>
+          <version>${moditect-maven-plugin.version}</version>
         </plugin>
 
         <plugin>
