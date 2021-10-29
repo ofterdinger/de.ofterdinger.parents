@@ -92,8 +92,14 @@
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/flatten-maven-plugin -->
     <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
+    <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
+
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
+    <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
     <google-java-format.version>1.11.0</google-java-format.version>
@@ -111,7 +117,7 @@
     <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.17.2</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.17.3</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
@@ -238,11 +244,10 @@
           <version>${flatten-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>jaxb2-maven-plugin</artifactId>
-          <version>2.5.0</version>
+          <version>${jaxb2-maven-plugin.version}</version>
         </plugin>
 
         <plugin>
@@ -275,10 +280,9 @@
           <version>${git-commit-id-maven-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
         <plugin>
           <artifactId>maven-antrun-plugin</artifactId>
-          <version>3.0.0</version>
+          <version>${maven-antrun-plugin.version}</version>
         </plugin>
 
         <plugin>
