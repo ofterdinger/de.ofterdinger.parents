@@ -114,10 +114,10 @@
     <javafx-maven-plugin.version>0.0.8</javafx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-    <sonar-maven-plugin.version>3.9.0.2155</sonar-maven-plugin.version>
+    <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.17.3</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.17.4</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.0</maven-archetype-plugin.version>
