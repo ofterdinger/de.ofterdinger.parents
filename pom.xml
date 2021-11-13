@@ -146,8 +146,14 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
     <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+    <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
+
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
     <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-help-plugin -->
+    <maven-help-plugin.version>3.2.0</maven-help-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
     <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
@@ -345,10 +351,9 @@
           <version>${maven-enforcer-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
         <plugin>
           <artifactId>maven-failsafe-plugin</artifactId>
-          <version>3.0.0-M5</version>
+          <version>${maven-failsafe-plugin.version}</version>
         </plugin>
 
         <plugin>
@@ -356,10 +361,9 @@
           <version>${maven-gpg-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-help-plugin -->
         <plugin>
           <artifactId>maven-help-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${maven-help-plugin.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-install-plugin -->
