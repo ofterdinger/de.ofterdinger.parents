@@ -125,8 +125,23 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
     <maven-artifact-plugin.version>3.1.0</maven-artifact-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
+    <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
+    <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
+    <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+    <maven-deploy-plugin.version>3.0.0-M1</maven-deploy-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-enforcer-plugin -->
     <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
@@ -295,28 +310,24 @@
           <version>${maven-artifact-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
         <plugin>
           <artifactId>maven-assembly-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>${maven-assembly-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
         <plugin>
           <artifactId>maven-checkstyle-plugin</artifactId>
-          <version>3.1.2</version>
+          <version>${maven-checkstyle-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>${maven-clean-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.1</version>
+          <version>${maven-compiler-plugin.version}</version>
         </plugin>
 
         <plugin>
@@ -324,10 +335,9 @@
           <version>${maven-dependency-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>3.0.0-M1</version>
+          <version>${maven-deploy-plugin.version}</version>
         </plugin>
 
         <plugin>
