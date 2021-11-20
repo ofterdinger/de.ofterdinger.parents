@@ -18,9 +18,6 @@
   <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>11</maven.compiler.release>
-
     <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
     <google-java-format.version>1.12.0</google-java-format.version>
   </properties>
