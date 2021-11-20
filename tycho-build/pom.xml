@@ -2,16 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>de.ofterdinger</groupId>
+    <groupId>de.ofterdinger.parent</groupId>
     <artifactId>parent</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
 
-  <artifactId>tycho-parent</artifactId>
+  <artifactId>tycho-build</artifactId>
   <packaging>pom</packaging>
 
-  <name>de.ofterdinger.tycho-parent</name>
+  <name>de.ofterdinger.parent - tycho-build</name>
   <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
 
   <properties>
