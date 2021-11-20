@@ -78,7 +78,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.20.1</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.20.3</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
     <maven-bundle-plugin.version>5.1.2</maven-bundle-plugin.version>
@@ -115,6 +115,9 @@
 
     <!-- https://search.maven.org/artifact/com.github.akman/jpackage-maven-plugin -->
     <jpackage-maven-plugin.version>0.1.3</jpackage-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/com.gluonhq/gluonfx-maven-plugin -->
+    <gluonfx-maven-plugin.version>1.0.9</gluonfx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
@@ -251,6 +254,12 @@
           <groupId>com.github.akman</groupId>
           <artifactId>jpackage-maven-plugin</artifactId>
           <version>${jpackage-maven-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>com.gluonhq</groupId>
+          <artifactId>gluonfx-maven-plugin</artifactId>
+          <version>${gluonfx-maven-plugin.version}</version>
         </plugin>
 
         <plugin>
