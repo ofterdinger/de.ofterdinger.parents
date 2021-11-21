@@ -1,4 +1,4 @@
-name: Deploy Snapshot
+name: Publish Snapshot
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
     types: [closed]
 
 jobs:
-  deploy:
+  publish-snapshot:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
 
