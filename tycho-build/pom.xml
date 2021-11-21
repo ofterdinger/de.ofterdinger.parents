@@ -15,7 +15,6 @@
   <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
 
   <properties>
-    <tycho.version>2.5.0</tycho.version>
     <tycho.jgit.dirtyWorkingTree>warning</tycho.jgit.dirtyWorkingTree>
   </properties>
 
@@ -42,27 +41,6 @@
               </includes>
             </java>
           </configuration>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-compiler-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-compiler-plugin</artifactId>
-          <version>${tycho.version}</version>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho.extras/tycho-document-bundle-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho.extras</groupId>
-          <artifactId>tycho-document-bundle-plugin</artifactId>
-          <version>${tycho.version}</version>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-maven-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-maven-plugin</artifactId>
-          <version>${tycho.version}</version>
         </plugin>
 
         <!-- https://search.maven.org/artifact/org.eclipse.tycho/target-platform-configuration -->
@@ -93,27 +71,6 @@
           </configuration>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-repository-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-p2-repository-plugin</artifactId>
-          <version>${tycho.version}</version>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-p2-plugin</artifactId>
-          <version>${tycho.version}</version>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-p2-publisher-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-p2-publisher-plugin</artifactId>
-          <version>${tycho.version}</version>
-        </plugin>
-
         <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-packaging-plugin -->
         <plugin>
           <groupId>org.eclipse.tycho</groupId>
@@ -134,13 +91,6 @@
             </jgit.ignore>
             <jgit.dirtyWorkingTree>${tycho.jgit.dirtyWorkingTree}</jgit.dirtyWorkingTree>
           </configuration>
-        </plugin>
-
-        <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho-surefire-plugin -->
-        <plugin>
-          <groupId>org.eclipse.tycho</groupId>
-          <artifactId>tycho-surefire-plugin</artifactId>
-          <version>${tycho.version}</version>
         </plugin>
       </plugins>
     </pluginManagement>
