@@ -22,4 +22,5 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: ${{ matrix.java-version }}
+    - run: mvn --version
     - run: mvn -B package --file pom.xml
