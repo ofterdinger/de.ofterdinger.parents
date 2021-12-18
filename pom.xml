@@ -202,6 +202,9 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
 
+    <!-- https://search.maven.org/artifact/org.sonatype.plugins/nexus-staging-maven-plugin -->
+    <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
+
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
     <tycho.version>2.5.0</tycho.version>
   </properties>
@@ -323,6 +326,12 @@
           <groupId>org.sonarsource.scanner.maven</groupId>
           <artifactId>sonar-maven-plugin</artifactId>
           <version>${sonar-maven-plugin.version}</version>
+        </plugin>
+
+        <plugin>
+          <groupId>org.sonatype.plugins</groupId>
+          <artifactId>nexus-staging-maven-plugin</artifactId>
+          <version>${nexus-staging-maven-plugin.version}</version>
         </plugin>
 
         <plugin>
