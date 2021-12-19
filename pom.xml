@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger.parent</groupId>
@@ -198,6 +197,21 @@
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
     <maven-scm-plugin.version>1.12.0</maven-scm-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
+    <maven-scm-publish-plugin.version>3.1.0</maven-scm-publish-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin -->
+    <maven-shade-plugin.version>3.2.4</maven-shade-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
+    <maven-site-plugin.version>3.9.1</maven-site-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
+    <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
+    <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
@@ -470,28 +484,24 @@
           <version>${maven-scm-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
         <plugin>
           <artifactId>maven-scm-publish-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>${maven-scm-publish-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin -->
         <plugin>
           <artifactId>maven-shade-plugin</artifactId>
-          <version>3.2.4</version>
+          <version>${maven-shade-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.9.1</version>
+          <version>${maven-site-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.0.0-M5</version>
+          <version>${maven-surefire-plugin.version}</version>
         </plugin>
 
         <plugin>
@@ -499,10 +509,9 @@
           <version>${maven-surefire-report-plugin.version}</version>
         </plugin>
 
-        <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.2.1</version>
+          <version>${maven-source-plugin.version}</version>
         </plugin>
 
         <plugin>
