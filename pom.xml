@@ -511,7 +511,7 @@
 
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
-          <version>maven-source-plugin.version</version>
+          <version>${maven-source-plugin.version}</version>
         </plugin>
 
         <plugin>
