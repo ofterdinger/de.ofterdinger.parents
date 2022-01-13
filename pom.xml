@@ -118,7 +118,7 @@
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.19.2</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.20.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
@@ -136,7 +136,7 @@
     <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.9.0</maven-compiler-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
@@ -163,7 +163,7 @@
     <maven-invoker-plugin.version>3.2.2</maven-invoker-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jar-plugin -->
-    <maven-jar-plugin.version>3.2.1</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.2.2</maven-jar-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
     <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
@@ -196,7 +196,7 @@
     <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
-    <maven-scm-plugin.version>1.12.2</maven-scm-plugin.version>
+    <maven-scm-plugin.version>2.0.0-M1</maven-scm-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
     <maven-scm-publish-plugin.version>3.1.0</maven-scm-publish-plugin.version>
