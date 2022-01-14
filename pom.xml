@@ -11,9 +11,9 @@
   <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
   <scm>
-    <connection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</connection>
-    <developerConnection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parent</developerConnection>
-    <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
+    <connection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parents</connection>
+    <developerConnection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parents</developerConnection>
+    <url>https://github.com/ofterdinger/de.ofterdinger.parents</url>
     <tag>HEAD</tag>
   </scm>
 
