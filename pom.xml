@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>de.ofterdinger.parent</groupId>
+  <groupId>de.ofterdinger.parents</groupId>
   <artifactId>parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>de.ofterdinger.parent - parent</name>
+  <name>de.ofterdinger.parents - parent</name>
   <description>A reusable Maven parent aritfact that provides versions of commonly used build plugins.</description>
   <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
