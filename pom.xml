@@ -118,7 +118,7 @@
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.20.1</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.20.2</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
@@ -169,7 +169,7 @@
     <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
-    <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jlink-plugin -->
     <maven-jlink-plugin.version>3.1.0</maven-jlink-plugin.version>
