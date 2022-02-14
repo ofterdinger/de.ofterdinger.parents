@@ -136,7 +136,7 @@
     <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-    <maven-compiler-plugin.version>3.9.0</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.10.0</maven-compiler-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.2.0</maven-dependency-plugin.version>
@@ -220,7 +220,7 @@
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonatype.plugins/nexus-staging-maven-plugin -->
-    <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
+    <nexus-staging-maven-plugin.version>1.6.10</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
     <tycho.version>2.6.0</tycho.version>
