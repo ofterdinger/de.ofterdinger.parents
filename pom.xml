@@ -76,7 +76,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.22.0</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.22.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
     <maven-bundle-plugin.version>5.1.4</maven-bundle-plugin.version>
@@ -220,7 +220,7 @@
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonatype.plugins/nexus-staging-maven-plugin -->
-    <nexus-staging-maven-plugin.version>1.6.11</nexus-staging-maven-plugin.version>
+    <nexus-staging-maven-plugin.version>1.6.12</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
     <tycho.version>2.6.0</tycho.version>
