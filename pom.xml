@@ -184,7 +184,7 @@
     <maven-pmd-plugin.version>3.16.0</maven-pmd-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
-    <maven-project-info-reports-plugin.version>3.2.1</maven-project-info-reports-plugin.version>
+    <maven-project-info-reports-plugin.version>3.2.2</maven-project-info-reports-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin -->
     <maven-release-plugin.version>3.0.0-M5</maven-release-plugin.version>
