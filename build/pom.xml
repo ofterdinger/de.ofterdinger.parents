@@ -19,7 +19,7 @@
 
   <properties>
     <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
-    <google-java-format.version>1.14.0</google-java-format.version>
+    <google-java-format.version>1.15.0</google-java-format.version>
   </properties>
 
   <build>
