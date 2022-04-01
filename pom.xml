@@ -76,7 +76,7 @@
     <maven.compiler.release>11</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.23.0</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.23.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
     <maven-bundle-plugin.version>5.1.4</maven-bundle-plugin.version>
