@@ -100,7 +100,7 @@
     <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
-    <jacoco-maven-plugin.version>0.8.7</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
     <moditect-maven-plugin.version>1.0.0.RC2</moditect-maven-plugin.version>
@@ -112,19 +112,19 @@
     <jpackage-maven-plugin.version>0.1.3</jpackage-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.gluonhq/gluonfx-maven-plugin -->
-    <gluonfx-maven-plugin.version>1.0.12</gluonfx-maven-plugin.version>
+    <gluonfx-maven-plugin.version>1.0.13</gluonfx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.22.0</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.22.1</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
-    <maven-artifact-plugin.version>3.2.0</maven-artifact-plugin.version>
+    <maven-artifact-plugin.version>3.3.0</maven-artifact-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
     <maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
@@ -133,7 +133,7 @@
     <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
-    <maven-clean-plugin.version>3.1.0</maven-clean-plugin.version>
+    <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
     <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
@@ -148,7 +148,7 @@
     <maven-enforcer-plugin.version>3.0.0</maven-enforcer-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
-    <maven-failsafe-plugin.version>3.0.0-M5</maven-failsafe-plugin.version>
+    <maven-failsafe-plugin.version>3.0.0-M6</maven-failsafe-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
     <maven-gpg-plugin.version>3.0.1</maven-gpg-plugin.version>
@@ -195,9 +195,6 @@
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin -->
     <maven-resources-plugin.version>3.2.0</maven-resources-plugin.version>
 
-    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
-    <maven-surefire-report-plugin.version>3.0.0-M5</maven-surefire-report-plugin.version>
-
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
     <maven-scm-plugin.version>2.0.0-M1</maven-scm-plugin.version>
 
@@ -211,7 +208,10 @@
     <maven-site-plugin.version>3.11.0</maven-site-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-    <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>3.0.0-M6</maven-surefire-plugin.version>
+
+    <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
+    <maven-surefire-report-plugin.version>3.0.0-M6</maven-surefire-report-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
     <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
