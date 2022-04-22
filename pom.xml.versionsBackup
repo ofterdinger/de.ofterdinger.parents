@@ -91,13 +91,13 @@
     <flatten-maven-plugin.version>1.2.7</flatten-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/jaxb2-maven-plugin -->
-    <jaxb2-maven-plugin.version>3.1.0</jaxb2-maven-plugin.version>
+    <jaxb2-maven-plugin.version>2.5.0</jaxb2-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
     <git-commit-id-maven-plugin.version>5.0.0</git-commit-id-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
-    <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
+    <maven-antrun-plugin.version>3.0.0</maven-antrun-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
     <jacoco-maven-plugin.version>0.8.8</jacoco-maven-plugin.version>
@@ -169,7 +169,7 @@
     <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
-    <maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.3.2</maven-javadoc-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jlink-plugin -->
     <maven-jlink-plugin.version>3.1.0</maven-jlink-plugin.version>
@@ -205,7 +205,7 @@
     <maven-shade-plugin.version>3.3.0</maven-shade-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
-    <maven-site-plugin.version>3.12.0</maven-site-plugin.version>
+    <maven-site-plugin.version>3.11.0</maven-site-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
     <maven-surefire-plugin.version>3.0.0-M6</maven-surefire-plugin.version>
@@ -220,7 +220,7 @@
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonatype.plugins/nexus-staging-maven-plugin -->
-    <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
+    <nexus-staging-maven-plugin.version>1.6.12</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
     <tycho.version>2.7.1</tycho.version>
