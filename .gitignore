@@ -27,7 +27,9 @@ hs_err_pid*
 .project
 
 # Maven
+/pom.xml.versionsBackup
 target/
 
 # VSCode
 .vscode/
+
