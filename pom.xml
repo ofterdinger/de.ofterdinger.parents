@@ -79,7 +79,7 @@
     <cds-maven-plugin.version>1.23.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
-    <maven-bundle-plugin.version>5.1.4</maven-bundle-plugin.version>
+    <maven-bundle-plugin.version>5.1.5</maven-bundle-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/build-helper-maven-plugin -->
     <build-helper-maven-plugin.version>3.3.0</build-helper-maven-plugin.version>
@@ -118,7 +118,7 @@
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.22.2</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.22.3</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
@@ -184,7 +184,7 @@
     <maven-pmd-plugin.version>3.16.0</maven-pmd-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin -->
-    <maven-project-info-reports-plugin.version>3.2.2</maven-project-info-reports-plugin.version>
+    <maven-project-info-reports-plugin.version>3.3.0</maven-project-info-reports-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin -->
     <maven-release-plugin.version>3.0.0-M5</maven-release-plugin.version>
