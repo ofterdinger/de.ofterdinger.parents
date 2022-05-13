@@ -18,6 +18,9 @@
   <properties>
     <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
     <google-java-format.version>1.15.0</google-java-format.version>
+
+    <!-- https://search.maven.org/artifact/org.codehaus.mojo/keytool-api -->
+    <keytool-api.version>1.6</keytool-api.version>
   </properties>
 
   <build>
@@ -64,7 +67,20 @@
             </execution>
           </executions>
         </plugin>
+
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>webstart-maven-plugin</artifactId>
+          <dependencies>
+            <dependency>
+              <groupId>org.codehaus.mojo</groupId>
+              <artifactId>keytool-api-1.7</artifactId>
+              <version>${keytool-api.version}</version>
+            </dependency>
+          </dependencies>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
+
 </project>
