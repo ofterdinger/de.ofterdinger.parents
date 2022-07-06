@@ -112,7 +112,7 @@
     <javafx-maven-plugin.version>0.0.8</javafx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.github.akman/jpackage-maven-plugin -->
-    <jpackage-maven-plugin.version>0.1.3</jpackage-maven-plugin.version>
+    <jpackage-maven-plugin.version>0.1.5</jpackage-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.gluonhq/gluonfx-maven-plugin -->
     <gluonfx-maven-plugin.version>1.0.14</gluonfx-maven-plugin.version>
