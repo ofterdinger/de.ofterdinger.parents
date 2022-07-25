@@ -130,7 +130,7 @@
     <maven-artifact-plugin.version>3.3.0</maven-artifact-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
-    <maven-assembly-plugin.version>3.4.1</maven-assembly-plugin.version>
+    <maven-assembly-plugin.version>3.4.2</maven-assembly-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
     <maven-checkstyle-plugin.version>3.1.2</maven-checkstyle-plugin.version>
