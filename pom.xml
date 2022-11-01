@@ -79,7 +79,7 @@
     <appassembler-maven-plugin.version>2.1.0</appassembler-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.28.0</cds-maven-plugin.version>
+    <cds-maven-plugin.version>1.28.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
     <maven-bundle-plugin.version>5.1.8</maven-bundle-plugin.version>
@@ -121,7 +121,7 @@
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.27.1</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.27.2</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
@@ -199,13 +199,13 @@
     <maven-resources-plugin.version>3.3.0</maven-resources-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
-    <maven-scm-plugin.version>2.0.0-M2</maven-scm-plugin.version>
+    <maven-scm-plugin.version>2.0.0-M3</maven-scm-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
     <maven-scm-publish-plugin.version>3.1.0</maven-scm-publish-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin -->
-    <maven-shade-plugin.version>3.4.0</maven-shade-plugin.version>
+    <maven-shade-plugin.version>3.4.1</maven-shade-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
     <maven-site-plugin.version>4.0.0-M3</maven-site-plugin.version>
