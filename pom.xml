@@ -230,6 +230,9 @@
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin -->
     <webstart-maven-plugin.version>1.0-beta-7</webstart-maven-plugin.version>
+
+    <!-- https://search.maven.org/artifact/de.ofterdinger.maven.plugins/site-maven-plugin -->
+    <github-site-maven-plugin.version>0.1.2</github-site-maven-plugin.version>
   </properties>
 
   <modules>
@@ -273,6 +276,12 @@
     <pluginManagement>
       <!-- set versions of common plugins for reproducibility, ordered alphabetically -->
       <plugins>
+        <plugin>
+          <groupId>de.ofterdinger.maven.plugins</groupId>
+          <artifactId>site-maven-plugin</artifactId>
+          <version>${github-site-maven-plugin.version}</version>
+        </plugin>
+
         <plugin>
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
