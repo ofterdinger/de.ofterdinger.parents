@@ -264,7 +264,6 @@
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
-          <arguments>-Prelease</arguments>
           <releaseProfiles>release</releaseProfiles>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <pushChanges>true</pushChanges>
