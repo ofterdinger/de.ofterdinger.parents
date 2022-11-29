@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>de.ofterdinger.parents</groupId>
@@ -226,7 +226,7 @@
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
-    <tycho.version>2.7.5</tycho.version>
+    <tycho.version>3.0.0</tycho.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin -->
     <webstart-maven-plugin.version>1.0-beta-7</webstart-maven-plugin.version>
