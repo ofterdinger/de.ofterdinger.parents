@@ -73,7 +73,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>11</maven.compiler.release>
+    <maven.compiler.release>17</maven.compiler.release>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/appassembler-maven-plugin -->
     <appassembler-maven-plugin.version>2.1.0</appassembler-maven-plugin.version>
