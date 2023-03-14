@@ -20,7 +20,7 @@
     <google-java-format.version>1.15.0</google-java-format.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/keytool-api -->
-    <keytool-api.version>1.6</keytool-api.version>
+    <keytool-api.version>1.7</keytool-api.version>
   </properties>
 
   <build>
