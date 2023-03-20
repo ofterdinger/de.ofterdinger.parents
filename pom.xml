@@ -190,7 +190,7 @@
     <maven-project-info-reports-plugin.version>3.4.2</maven-project-info-reports-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin -->
-    <maven-release-plugin.version>3.0.0-M7</maven-release-plugin.version>
+    <maven-release-plugin.version>3.0.0</maven-release-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-remote-resources-plugin -->
     <maven-remote-resources-plugin.version>3.0.0</maven-remote-resources-plugin.version>
