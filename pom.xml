@@ -208,7 +208,7 @@
     <maven-shade-plugin.version>3.4.1</maven-shade-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin -->
-    <maven-site-plugin.version>4.0.0-M5</maven-site-plugin.version>
+    <maven-site-plugin.version>4.0.0-M6</maven-site-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
     <maven-surefire-plugin.version>3.0.0</maven-surefire-plugin.version>
