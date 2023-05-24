@@ -133,7 +133,7 @@
     <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
-    <maven-checkstyle-plugin.version>3.2.2</maven-checkstyle-plugin.version>
+    <maven-checkstyle-plugin.version>3.3.0</maven-checkstyle-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-clean-plugin -->
     <maven-clean-plugin.version>3.2.0</maven-clean-plugin.version>
@@ -217,7 +217,7 @@
     <maven-surefire-report-plugin.version>3.1.0</maven-surefire-report-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
-    <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+    <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin -->
     <maven-war-plugin.version>3.3.2</maven-war-plugin.version>
