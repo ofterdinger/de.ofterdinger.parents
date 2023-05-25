@@ -142,7 +142,7 @@
     <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
-    <maven-dependency-plugin.version>3.5.0</maven-dependency-plugin.version>
+    <maven-dependency-plugin.version>3.6.0</maven-dependency-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
     <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
