@@ -211,7 +211,7 @@
     <maven-site-plugin.version>4.0.0-M8</maven-site-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-    <maven-surefire-plugin.version>3.1.0</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
     <maven-surefire-report-plugin.version>3.1.2</maven-surefire-report-plugin.version>
