@@ -24,4 +24,4 @@ jobs:
         with:
           distribution: temurin
           java-version: ${{ matrix.java-version }}
-      - run: mvn --batch-mode verify
+      - run: mvn -B -ntp verify
