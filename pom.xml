@@ -79,7 +79,7 @@
     <appassembler-maven-plugin.version>2.1.0</appassembler-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.sap.cds/cds-maven-plugin -->
-    <cds-maven-plugin.version>1.34.2</cds-maven-plugin.version>
+    <cds-maven-plugin.version>2.0.1</cds-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin -->
     <maven-bundle-plugin.version>5.1.9</maven-bundle-plugin.version>
