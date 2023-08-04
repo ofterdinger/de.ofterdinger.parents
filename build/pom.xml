@@ -11,7 +11,7 @@
   <artifactId>build</artifactId>
   <packaging>pom</packaging>
 
-  <name>de.ofterdinger.parent - build</name>
+  <name>de.ofterdinger.parents - build</name>
   <description>A reusable Maven parent aritfact that provides versions and default configurations of commonly used build plugins.</description>
   <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
