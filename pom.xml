@@ -121,7 +121,7 @@
     <sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.37.0</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.38.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
@@ -226,7 +226,7 @@
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
-    <tycho.version>3.0.5</tycho.version>
+    <tycho.version>4.0.1</tycho.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin -->
     <webstart-maven-plugin.version>1.0-beta-7</webstart-maven-plugin.version>
@@ -253,7 +253,7 @@
             <configuration>
               <rules>
                 <requireMavenVersion>
-                  <version>3.8.6</version>
+                  <version>3.9.0</version>
                 </requireMavenVersion>
               </rules>
             </configuration>

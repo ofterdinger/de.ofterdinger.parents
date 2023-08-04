@@ -11,7 +11,7 @@
   <artifactId>tycho-build</artifactId>
   <packaging>pom</packaging>
 
-  <name>de.ofterdinger.parent - tycho-build</name>
+  <name>de.ofterdinger.parents - tycho-build</name>
   <description>A reusable Maven parent aritfact that provides versions and default configurations of Tycho plugins.</description>
 
   <properties>
