@@ -226,7 +226,7 @@
     <nexus-staging-maven-plugin.version>1.6.13</nexus-staging-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.eclipse.tycho/tycho -->
-    <tycho.version>4.0.2</tycho.version>
+    <tycho.version>4.0.4</tycho.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/webstart-maven-plugin -->
     <webstart-maven-plugin.version>1.0-beta-7</webstart-maven-plugin.version>
