@@ -232,7 +232,7 @@
     <webstart-maven-plugin.version>1.0-beta-7</webstart-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/de.ofterdinger.maven.plugins/site-maven-plugin -->
-    <github-site-maven-plugin.version>0.1.4</github-site-maven-plugin.version>
+    <github-site-maven-plugin.version>0.1.5</github-site-maven-plugin.version>
   </properties>
 
   <modules>
