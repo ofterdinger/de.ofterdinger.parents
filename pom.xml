@@ -103,7 +103,7 @@
     <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.jacoco/jacoco-maven-plugin -->
-    <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
     <moditect-maven-plugin.version>1.2.1.Final</moditect-maven-plugin.version>
