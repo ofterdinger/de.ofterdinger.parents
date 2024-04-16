@@ -166,7 +166,7 @@
     <maven-invoker-plugin.version>3.6.1</maven-invoker-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jar-plugin -->
-    <maven-jar-plugin.version>3.3.0</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.4.0</maven-jar-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jarsigner-plugin -->
     <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
