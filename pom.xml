@@ -202,7 +202,7 @@
     <maven-scm-plugin.version>2.1.0</maven-scm-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-publish-plugin -->
-    <maven-scm-publish-plugin.version>3.2.1</maven-scm-publish-plugin.version>
+    <maven-scm-publish-plugin.version>3.3.0</maven-scm-publish-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin -->
     <maven-shade-plugin.version>3.6.0</maven-shade-plugin.version>
