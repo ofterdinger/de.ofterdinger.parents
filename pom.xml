@@ -97,7 +97,7 @@
     <jaxb2-maven-plugin.version>3.2.0</jaxb2-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/io.github.git-commit-id/git-commit-id-maven-plugin -->
-    <git-commit-id-maven-plugin.version>9.0.0</git-commit-id-maven-plugin.version>
+    <git-commit-id-maven-plugin.version>9.0.1</git-commit-id-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-antrun-plugin -->
     <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
