@@ -115,7 +115,7 @@
     <jpackage-maven-plugin.version>0.1.5</jpackage-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.gluonhq/gluonfx-maven-plugin -->
-    <gluonfx-maven-plugin.version>1.0.22</gluonfx-maven-plugin.version>
+    <gluonfx-maven-plugin.version>1.0.23</gluonfx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
     <sonar-maven-plugin.version>4.0.0.4121</sonar-maven-plugin.version>
