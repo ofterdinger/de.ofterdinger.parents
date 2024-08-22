@@ -17,7 +17,7 @@
 
   <properties>
     <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
-    <google-java-format.version>1.21.0</google-java-format.version>
+    <google-java-format.version>1.23.0</google-java-format.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/keytool-api -->
     <keytool-api.version>1.7</keytool-api.version>
