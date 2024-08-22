@@ -178,7 +178,7 @@
     <maven-jlink-plugin.version>3.2.0</maven-jlink-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jxr-plugin -->
-    <maven-jxr-plugin.version>3.4.0</maven-jxr-plugin.version>
+    <maven-jxr-plugin.version>3.5.0</maven-jxr-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
     <maven-plugin-plugin.version>3.14.0</maven-plugin-plugin.version>
