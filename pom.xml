@@ -169,7 +169,7 @@
     <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jarsigner-plugin -->
-    <maven-jarsigner-plugin.version>3.0.0</maven-jarsigner-plugin.version>
+    <maven-jarsigner-plugin.version>3.1.0</maven-jarsigner-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
     <maven-javadoc-plugin.version>3.10.0</maven-javadoc-plugin.version>
