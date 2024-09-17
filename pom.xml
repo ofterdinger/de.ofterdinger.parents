@@ -154,7 +154,7 @@
     <maven-failsafe-plugin.version>3.5.0</maven-failsafe-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin -->
-    <maven-gpg-plugin.version>3.2.5</maven-gpg-plugin.version>
+    <maven-gpg-plugin.version>3.2.6</maven-gpg-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-help-plugin -->
     <maven-help-plugin.version>3.5.0</maven-help-plugin.version>
