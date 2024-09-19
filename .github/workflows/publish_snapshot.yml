@@ -14,6 +14,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
@@ -22,10 +23,12 @@ jobs:
           server-id: ossrh
           server-username: MAVEN_USERNAME
           server-password: MAVEN_PASSWORD
+
       - name: Setup Maven
         uses: stCarolas/setup-maven@v5
         with:
-          maven-version: 3.9.7
+          maven-version: 3.9.9
+
       - name: Publish package
         run: mvn --batch-mode -ntp deploy
         env:
