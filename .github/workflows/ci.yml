@@ -1,4 +1,4 @@
-name: PR Voter build
+name: PR Voter
 
 on:
   push:
@@ -29,4 +29,5 @@ jobs:
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
-      - run: mvn -B -ntp verify
+      - name: Build with Maven
+        run: mvn -B -ntp verify

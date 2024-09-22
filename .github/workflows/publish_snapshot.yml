@@ -27,7 +27,7 @@ jobs:
         uses: stCarolas/setup-maven@v5
         with:
           maven-version: 3.9.9
-      - name: Publish package
+      - name: Deploy artifacts
         run: mvn --batch-mode -ntp deploy
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
