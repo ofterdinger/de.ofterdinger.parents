@@ -22,10 +22,10 @@ jobs:
       - name: Setup JDK
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
+          distribution: sapmachine
           java-version: ${{ matrix.java-version }}
       - name: Setup Maven
         uses: stCarolas/setup-maven@v5
         with:
-          maven-version: 3.9.7
+          maven-version: 3.9.9
       - run: mvn -B -ntp verify
