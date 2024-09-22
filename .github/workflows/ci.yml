@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    name: Build with Java ${{ matrix.java-version }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -19,7 +20,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup JDK
+      - name: Setup JDK ${{ matrix.java-version }}
         uses: actions/setup-java@v4
         with:
           distribution: sapmachine
