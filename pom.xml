@@ -124,7 +124,7 @@
     <spotless-maven-plugin.version>2.43.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
-    <maven-archetype-plugin.version>3.2.1</maven-archetype-plugin.version>
+    <maven-archetype-plugin.version>3.3.0</maven-archetype-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin -->
     <maven-artifact-plugin.version>3.5.1</maven-artifact-plugin.version>
