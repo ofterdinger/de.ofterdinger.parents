@@ -121,7 +121,7 @@
     <sonar-maven-plugin.version>5.1.0.4751</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
-    <spotless-maven-plugin.version>2.44.5</spotless-maven-plugin.version>
+    <spotless-maven-plugin.version>2.45.0</spotless-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-archetype-plugin -->
     <maven-archetype-plugin.version>3.4.0</maven-archetype-plugin.version>
