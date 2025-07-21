@@ -106,7 +106,7 @@
     <jacoco-maven-plugin.version>0.8.13</jacoco-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.moditect/moditect-maven-plugin -->
-    <moditect-maven-plugin.version>1.2.2.Final</moditect-maven-plugin.version>
+    <moditect-maven-plugin.version>1.3.0.Final</moditect-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.openjfx/javafx-maven-plugin -->
     <javafx-maven-plugin.version>0.0.8</javafx-maven-plugin.version>
