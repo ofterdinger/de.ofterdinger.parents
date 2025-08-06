@@ -3,7 +3,7 @@
 
   <groupId>de.ofterdinger.parents</groupId>
   <artifactId>parent</artifactId>
-  <version>0.1.7-SNAPSHOT</version>
+  <version>0.1.7</version>
   <packaging>pom</packaging>
 
   <name>de.ofterdinger.parents - parent</name>
@@ -14,7 +14,7 @@
     <connection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parents</connection>
     <developerConnection>scm:git:git@github.com:ofterdinger/de.ofterdinger.parents</developerConnection>
     <url>https://github.com/ofterdinger/de.ofterdinger.parents</url>
-    <tag>HEAD</tag>
+    <tag>v0.1.7</tag>
   </scm>
 
   <licenses>
