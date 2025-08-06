@@ -36,4 +36,4 @@ target/
 # MacOS
 .DS_Store
 
-*.http
+.env

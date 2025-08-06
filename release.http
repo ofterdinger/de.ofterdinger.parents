@@ -1,0 +1,7 @@
+# add the following to your .env file
+# TOKEN=your_sonatype_token_here
+# This file is used to upload artifacts to Sonatype OSSRH staging repository
+# Make sure to replace 'your_sonatype_token_here' with your actual token.
+
+POST https://ossrh-staging-api.central.sonatype.com/manual/upload/defaultRepository/de.ofterdinger
+Authorization: Bearer {{$dotenv TOKEN}}
