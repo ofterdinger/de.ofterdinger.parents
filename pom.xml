@@ -172,7 +172,7 @@
     <maven-jarsigner-plugin.version>3.1.0</maven-jarsigner-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-javadoc-plugin -->
-    <maven-javadoc-plugin.version>3.11.2</maven-javadoc-plugin.version>
+    <maven-javadoc-plugin.version>3.11.3</maven-javadoc-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-jlink-plugin -->
     <maven-jlink-plugin.version>3.2.0</maven-jlink-plugin.version>
