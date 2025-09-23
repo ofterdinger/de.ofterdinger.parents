@@ -139,7 +139,7 @@
     <maven-clean-plugin.version>3.5.0</maven-clean-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-    <maven-compiler-plugin.version>3.14.0</maven-compiler-plugin.version>
+    <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin -->
     <maven-dependency-plugin.version>3.8.1</maven-dependency-plugin.version>
@@ -214,7 +214,7 @@
     <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-report-plugin -->
-    <maven-surefire-report-plugin.version>3.5.3</maven-surefire-report-plugin.version>
+    <maven-surefire-report-plugin.version>3.5.4</maven-surefire-report-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-source-plugin -->
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
