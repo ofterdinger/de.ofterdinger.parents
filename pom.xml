@@ -130,7 +130,7 @@
     <maven-artifact-plugin.version>3.6.1</maven-artifact-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin -->
-    <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
+    <maven-assembly-plugin.version>3.8.0</maven-assembly-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin -->
     <maven-checkstyle-plugin.version>3.6.0</maven-checkstyle-plugin.version>
@@ -196,7 +196,7 @@
     <maven-remote-resources-plugin.version>3.3.0</maven-remote-resources-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin -->
-    <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
+    <maven-resources-plugin.version>3.4.0</maven-resources-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin -->
     <maven-scm-plugin.version>2.2.1</maven-scm-plugin.version>
