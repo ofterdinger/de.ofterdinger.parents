@@ -16,8 +16,8 @@
   <url>https://github.com/ofterdinger/de.ofterdinger.parent</url>
 
   <properties>
-    <!-- https://search.maven.org/artifact/com.google.googlejavaformat/google-java-format -->
-    <google-java-format.version>1.28.0</google-java-format.version>
+    <!-- https://central.sonatype.com/artifact/com.google.googlejavaformat/google-java-format -->
+    <google-java-format.version>2.0.0</google-java-format.version>
 
     <!-- https://search.maven.org/artifact/org.codehaus.mojo/keytool-api -->
     <keytool-api.version>1.7</keytool-api.version>
