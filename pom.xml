@@ -118,7 +118,7 @@
     <gluonfx-maven-plugin.version>1.0.29</gluonfx-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
-    <sonar-maven-plugin.version>5.8.0.7211</sonar-maven-plugin.version>
+    <sonar-maven-plugin.version>5.9.0.7382</sonar-maven-plugin.version>
 
     <!-- https://search.maven.org/artifact/com.diffplug.spotless/spotless-maven-plugin -->
     <spotless-maven-plugin.version>3.11.0</spotless-maven-plugin.version>
